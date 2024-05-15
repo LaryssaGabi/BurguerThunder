@@ -1,0 +1,29 @@
+### Adicionar um novo pedido
+POST http://localhost:3000/usersOrder
+Content-Type: application/json
+
+{
+  "name": "Sergio Jr",
+  "order": "Burger with fries"
+}
+
+
+
+### Obter todos os pedidos
+GET http://localhost:3000/usersOrder
+
+
+
+### Atualizar um pedido existente (substitua {id} pelo id real)
+PUT http://localhost:3000/usersOrder/a9dc6539-5420-46d2-95fc-5737d2cc40e0
+Content-Type: application/json
+
+{
+  "name": "Mark Mark",
+  "order": "Burger with extra fries"
+}
+
+
+
+### Deletar um pedido existente (substitua {id} pelo id real)
+DELETE http://localhost:3000/usersOrder/e4ae3396-72e7-4f56-9be0-44f0f317f040
